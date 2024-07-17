@@ -122,7 +122,7 @@ On the first day, I learned about variables and data types in JavaScript. Unders
 - **Primitive data types**: `string`, `number`, `boolean`, `null`, `undefined`, `symbol`
 - **Non-primitive data types**: `object` (including arrays and functions)
   
-![Day_4](./Queries/day_1.png)
+![Day_1](./Queries/day_1.png)
 ------------------------
 
 ## Day 2: Operators
@@ -133,7 +133,7 @@ On the second day of the 30-Day JavaScript Challenge, I focused on understanding
 - **Comparison and Logical Operators** - Compare values and combine conditions.
 - **Ternary Operator** - Use for concise conditional expressions.
 
-![Day_4](./Queries/day_2.png)
+![Day_2](./Queries/day_2.png)
 ----------------------------
 
 ## Day 3: Control structures
@@ -146,7 +146,7 @@ On the third day of JavaScript Basics! Today, we'll be focusing on control struc
 - **Grade Assignment Script** - Create a script that uses a `switch` case to assign a grade based on a score and logs the grade.
 - **Leap Year Check Script** - Write a script that checks if a year is a leap year using multiple conditions and logs the result.
 
-![Day_4](./Queries/day_3.png)
+![Day_3](./Queries/day_3.png)
 --------------------------
 
 ## Day 4: Loops 
@@ -161,6 +161,19 @@ On the fourth day of JavaScript Basics! Today, we'll be focusing on loops. This 
 
 ![Day_4](./Queries/day_4.png)
 ----------------------------
+
+## Day 5: Functions 
+on the Day 5 of JavaScript Basics! Today, we'll be focusing on functions in JavaScript. This includes function declarations, function expressions, arrow functions, function parameters with default values, and higher-order functions.
+
+### Key Concepts Covered
+- **Even or Odd Function Script**: Write a script that includes a function to check if a number is even or odd and logs the result.
+- **Square Calculation Function Script**: Create a script that includes a function to calculate the square of a number and returns the result.
+- **Concatenation Function Script**: Write a script that includes a function expression to concatenate two strings and returns the result.
+- **Sum Calculation Arrow Function Script**: Create a script that includes an arrow function to calculate the sum of two numbers and returns the result.
+- **Higher-Order Function Script**: Write a script that includes a higher-order function to apply a given function multiple times.
+
+![Day_5](./Queries/day_5.png)
+----------------------
   
 ## Follow My Journey
 Stay updated with my progress by following this repository. I am excited to embark on this journey and can't wait to see the progress I make over the next 30 days. Let's code our way to success! 💻🚀
