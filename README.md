@@ -174,6 +174,18 @@ on the Day 5 of JavaScript Basics! Today, we'll be focusing on functions in Java
 
 ![Day_5](./Queries/day_5.png)
 ----------------------
+
+## Day 6: Arrays
+Today, we'll be focusing on arrays in JavaScript. This includes creating and accessing arrays, using array methods such as push, pop, shift, and unshift, transforming arrays with map, filter, and reduce, iterating over arrays with loops, and working with multi-dimensional arrays.
+
+### Key Concepts Covered
+- **Array Manipulation Script**: Write a script that demonstrates the creation of an array, adding and removing elements using push, pop, shift, and unshift methods.
+- **Array Transformation Script**: Create a script that uses map, filter, and reduce methods to transform and aggregate array data.
+- **Array Iteration Script**: Write a script that iterates over an array using both for loop and forEach method and logs each element.
+- **Two-dimensional Array Script**: Create a script that demonstrates the creation and manipulation of a two-dimensional array.
+
+![Day_6](./Queries/day_6.png)
+----------------------
   
 ## Follow My Journey
 Stay updated with my progress by following this repository. I am excited to embark on this journey and can't wait to see the progress I make over the next 30 days. Let's code our way to success! 💻🚀
