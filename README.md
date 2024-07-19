@@ -186,6 +186,18 @@ Today, we'll be focusing on arrays in JavaScript. This includes creating and acc
 
 ![Day_6](./Queries/day_6.png)
 ----------------------
+
+## Day 7:Objects
+Today, we'll be focusing on objects in JavaScript. This includes creating and accessing objects, using object methods, working with nested objects, using the this keyword, and iterating over object properties.
+
+### Key Concepts Covered
+- **Book Object Script**: Write a script that creates a book object, adds methods to it, and logs its properties and method results.
+- **Library Object Script**: Create a script that defines a library object containing an array of book objects and logs the library’s details.
+- **Object Iteration Script**: Write a script that demonstrates iterating over an object's properties using for...in loop and Object.keys / Object.values.
+
+![Day_7](./Queries/day_7.png)
+----------------------
+
   
 ## Follow My Journey
 Stay updated with my progress by following this repository. I am excited to embark on this journey and can't wait to see the progress I make over the next 30 days. Let's code our way to success! 💻🚀
