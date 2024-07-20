@@ -198,6 +198,18 @@ Today, we'll be focusing on objects in JavaScript. This includes creating and ac
 ![Day_7](./Queries/day_7.png)
 ----------------------
 
+## Day 8:ES6+ Features
+Welcome to Day 8 of JavaScript Basics! Today, we'll be focusing on modern JavaScript features including template literals, destructuring, spread and rest operators, default parameters, and enhanced object literals.
+
+### Key Concepts Covered
+- **Template Literals Script**
+- **Destructuring Script**
+- **Spread and Rest Operators Script**
+- **Default Parameters Script**
+- **Enhanced Object Literals Script**
+
+![Day_8](./Queries/day_8.png)
+-----------------------
   
 ## Follow My Journey
 Stay updated with my progress by following this repository. I am excited to embark on this journey and can't wait to see the progress I make over the next 30 days. Let's code our way to success! 💻🚀
