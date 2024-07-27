@@ -210,6 +210,9 @@ Welcome to Day 8 of JavaScript Basics! Today, we'll be focusing on modern JavaSc
 
 ![Day_8](./Queries/day_8.png)
 -----------------------
+
+## Day 9: DOM Manipulation 
+Day 9 has been updated in the main file.
   
 ## Follow My Journey
 Stay updated with my progress by following this repository. I am excited to embark on this journey and can't wait to see the progress I make over the next 30 days. Let's code our way to success! 💻🚀
