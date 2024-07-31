@@ -1,0 +1,55 @@
+
+<!-- Task 8: Add a change event listener to a select dropdown that displays the selected value in a paragraph. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>change Event</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #101426;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding-top: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        select {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            background-color: #FF7700;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16px;
+            background-color: #FF7700;
+            padding: 10px;
+            border-radius: 5px;
+            margin-left: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <select id="select">
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+        <option value="3">Option 3</option>
+        <option value="4">Option 4</option>
+    </select>
+    <p id="selectedValue"></p>
+
+    <script>
+        document.getElementById('select').addEventListener('change', function(e) {
+            document.getElementById('selectedValue').innerText = e.target.value;
+        });
+    </script>
+    
+</body>
+</html>

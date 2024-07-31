@@ -1,0 +1,44 @@
+
+<!-- Activity 2: Mouse Events -->
+
+<!-- Task 3: Add a mouseover event listener to an element that changes its background color. -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouseover Event</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #101426;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding-top: 100px;
+        }
+        #box {
+            width: 200px;
+            height: 200px;
+            background-color: #FF7700;
+            margin: 0 auto;
+        }
+    </style>
+ </head>
+ <body>
+    <div id="box"></div>
+    <script>
+        /*
+        const box = document.getElementById('box');
+        box.addEventListener('mouseover', () => {
+            box.style.backgroundColor = '#fff';
+        });
+        */
+
+        //Another way to do the same thing
+        document.getElementById('box').addEventListener('mouseover', () => {
+            document.getElementById('box').style.backgroundColor = '#fff';
+        });
+    </script>
+    
+ </body>
+ </html>

@@ -1,0 +1,59 @@
+
+<!-- Activity 1: Basic Event Handling -->
+<!-- Task 1: Add a click event listener to a button that changes the text content of a paragraph. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #101426;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding-top: 100px;
+
+        }
+        #para {
+            font-size: 20px;
+            color: #f1f1f1;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #btn {
+            padding: 10px 20px;
+            background-color: #FF7700;
+            color: #414141;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn">Change Text</button>
+    <p id="para">My Name is Debashis Paul</p>
+
+    <script>
+
+        /*
+        const btn = document.getElementById('btn');
+        const para = document.getElementById('para');
+
+        btn.addEventListener('click', () => {
+            para.textContent = 'and I am a Web Developer';
+        });
+        */
+
+        //Another way to do the same thing
+        document.getElementById('btn').addEventListener('click', () => {
+            document.getElementById('para').textContent = 'and I am a Web Developer';
+        });
+        
+    </script>
+    
+</body>
+</html>

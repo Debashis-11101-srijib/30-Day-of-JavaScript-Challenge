@@ -1,5 +1,12 @@
-# 30 Days JavaScript Challenge with DSA
+<div align="center">
+  <h1>  30 Days JavaScript Challenge</h1>
 
+<sub>Author: Debashis Paul<br>
+Eduacator: Hitesh Choudhary, founder of "chaicode.com" <br>
+<small> July, 2024</small>
+</sub>
+</div>
+<hr>
 Welcome to the 30 Days JavaScript Challenge with DSA! This repository is designed to help you master JavaScript and Data Structures and Algorithms (DSA) in just 30 days.
 
 Hello everyone,
@@ -213,7 +220,11 @@ Welcome to Day 8 of JavaScript Basics! Today, we'll be focusing on modern JavaSc
 
 ## Day 9: DOM Manipulation 
 Day 9 has been updated in the main file.
-  
+
+## Day 10: Event Handling
+Day 10 has been updated in the main file.
+
+
 ## Follow My Journey
 Stay updated with my progress by following this repository. I am excited to embark on this journey and can't wait to see the progress I make over the next 30 days. Let's code our way to success! 💻🚀
 

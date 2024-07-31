@@ -1,0 +1,60 @@
+
+<!-- Task 10: Add an event listener to a parent element that listens for events from dynamically added child elements. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #101426;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding-top: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            background-color: #FF7700;
+            color: white;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <ul id="addList">
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+        </ul>
+        <button id="addItem">add</button>
+    </div>
+
+    <script>
+        document.getElementById('addItem').addEventListener('click', function() {
+            const li = document.createElement('li');
+            li.textContent = 'item ' + (document.getElementById('addList').childElementCount + 1);
+            document.getElementById('addList').appendChild(li);
+            this.innerHTML = 'add ' + (document.getElementById('addList').childElementCount + 1);
+        });
+
+        document.getElementById('addList').addEventListener('click', function(e) {
+            if (e.target.tagName === 'LI') {
+                console.log(e.target.textContent);
+            }
+        });
+    </script>
+    
+</body>
+</html>

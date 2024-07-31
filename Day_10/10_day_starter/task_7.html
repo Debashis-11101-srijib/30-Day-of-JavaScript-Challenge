@@ -1,0 +1,58 @@
+<!-- Activity 4: Form Events -->
+
+<!-- Task 7: Add a submit event listener to a form that prevents the default submission and logs the form data to the console. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #101426;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding-top: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        input {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            background-color: #FF7700;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            background-color: #FF7700;
+            color: white;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+        <form id="form">
+            <input type="text" name="name" placeholder="Name">
+            <button type="submit">Submit</button>
+        </form>
+    
+    <script>    
+        document.getElementById('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            console.log(e.target.name.value);
+        });
+
+    </script>
+    
+</body>
+</html>

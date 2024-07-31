@@ -1,0 +1,38 @@
+
+<!-- Task 4: Add a mouseout event listener to an element that resets its background color. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MouseOut Event</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #101426;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding-top: 100px;
+        }
+        #box {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body> 
+    <div id="box" ></div>
+    <script>
+        document.getElementById('box').addEventListener('mouseover', () => {
+            document.getElementById('box').style.backgroundColor = '#fff';
+        });
+
+        document.getElementById('box').addEventListener('mouseout', () => {
+            document.getElementById('box').style.backgroundColor = '#FF7700';
+        });
+    </script> 
+    
+</body>
+</html>

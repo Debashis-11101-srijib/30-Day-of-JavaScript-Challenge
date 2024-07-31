@@ -1,0 +1,53 @@
+
+<!-- Activity 5: Event Delegation -->
+
+<!-- Task 9: Add a click event listener to a list that logs the text content of the clicked list item using event delegation. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #101426;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding-top: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            padding: 10px;
+            background-color: #FF7700;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+        
+        <ul id="list">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+    
+        <script>
+            document.getElementById('list').addEventListener('click', function(e) {
+                if(e.target.tagName === 'LI') {
+                    console.log("Clicked item: ", e.target.textContent);
+                }
+            });
+        </script>
+    
+</body>
+</html>

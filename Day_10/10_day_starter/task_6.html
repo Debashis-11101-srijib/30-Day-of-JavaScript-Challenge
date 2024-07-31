@@ -1,0 +1,38 @@
+<!-- Task 6: Add a keyup event listener to an input field that displays the current value in a paragraph. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyup Event</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #101426;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding-top: 100px;
+        }
+        input {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            background-color: #FF7700;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="input" placeholder="Type something...">
+    <p id="para"></p>
+
+    <script>
+        document.getElementById('input')
+        .addEventListener('keyup', (event) => {
+            document.getElementById('para').textContent = event.target.value;
+        });
+    </script>
+    
+</body>
+</html>
